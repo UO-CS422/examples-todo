@@ -1,0 +1,15 @@
+# See https://docs.pytest.org/en/stable/explanation/goodpractices.html
+
+[project]
+name = "TODOApp"
+version = "0.1.0"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+addopts = [
+    "--import-mode=importlib",
+]
+testpaths = [
+    "tests",
+]
+

@@ -1,9 +1,6 @@
 import unittest
 from todo.todo_list import ToDoList
 
-# Import the ToDoList class from the module where it's defined
-# from your_module import ToDoList
-
 class ToDoList:
     """A class to manage a simple to-do list."""
     def __init__(self) -> None:

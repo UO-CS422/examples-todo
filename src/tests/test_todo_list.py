@@ -1,4 +1,3 @@
-import pytest
 from todo.todo_list import ToDoList
 
 @pytest.fixture

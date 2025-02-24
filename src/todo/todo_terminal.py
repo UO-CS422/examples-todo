@@ -1,4 +1,4 @@
-from todo_list import ToDoList
+from todo.todo_list import ToDoList
 
 class TodoTerminal:
     """A terminal application for managing a To-Do list."""

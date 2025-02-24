@@ -1,5 +1,5 @@
 import nose
-from src/todo/todo_list import ToDoList
+from src.todo.todo_list import ToDoList
 
 @raises(IndexError)
 def test_empty_class():

@@ -24,3 +24,6 @@ class ToDoList:
         if index < 0 or index >= len(self.tasks):
             raise IndexError("Task index out of range.")
         return self.tasks.pop(index)
+
+if __name__ == '__main__':
+    unittest.main()

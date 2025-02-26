@@ -29,12 +29,8 @@ jobs:
         with:
           python-version: '3.12'
           
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script, use Python
+      - name: Run ToDoList tests
+        shell: bash
         run: |
-          echo "This is a multi-line script"
-          python3 -c "print('Hello from python!')"
+          pytest tests

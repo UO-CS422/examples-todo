@@ -2,6 +2,7 @@ import pytest
 from todo.todo_list import ToDoList
 
 def test_add_task():
+    assert ToDoList().add_task("Task 1") == 0 
     todo = ToDoList()
     task = "Write unit tests"
     index = todo.add_task(task)
